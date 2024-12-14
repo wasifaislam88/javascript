@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour of DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <style>
+
+.fruites-container{
+            color: tomato;
+        }
+
+        #fruites-title{
+            color: black;
+
+        }
+
+        .important-places{
+            color: blueviolet;
+        }
+        
+        .place-conatiner{
+            color: brown;
+        }
+
+        
+
+        
+
+    </style>
+
+    <header>
+
+        <h1>Welcom to my DOM</h1>
+
+    </header>
+    
+
+    <main id="main-container">
+       
+
+       <section>
+
+        <h1>My Awsome DOM de baba</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit fuga </p>
+        <ul>
+            <li class="important-places">Wasifa</li>
+            <li class="important-places">Nahian</li>
+            <li class="important-places">Bonobash</li>
+        </ul>
+       </section>
+
+        <section class="fruites-container">
+
+            <h1 id="fruites-title">fruites i like to visit</h1>
+
+            <ul>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Banana</li>
+                <li>Licchi</li>
+            </ul>
+    
+        </section>
+
+        <section id="places-container"class="large-text">
+
+            <h1 id="places-title">places i like to visit</h1>
+
+            <ul id="places-list">
+                <li class="important-places">Sonderban</li>
+                <li class="important-places">Banderban</li>
+                <li class="important-places">Shalban</li>
+                <li class="other-places">Shalban</li>
+            </ul>
+        </section>
+
+
+    </main>
+    
+    <script src="js/dom.js"> </script>
+
+    <script src="styleInjs.js"></script>
+    <script src="append.js"></script>
+
+
+    <script>
+       const liCollection = document.getElementsByTagName('li');
+
+    //    console.log(liCollection);
+
+    for(const li of liCollection){
+
+        // console.log(li.innerText);
+
+    }
+
+    //option-1:getElementsByTagName
+    const allHeadings = document.getElementsByTagName('h1');
+
+    for(const h1 of allHeadings){
+
+        // console.log(h1.innerText);
+    }
+
+    //option-2:getEelementsById
+
+    const fruitesTitle = document.getElementById('fruoys-title');
+
+    fruitesTitle.innerText = 'Fruits changed by JS';
+
+
+
+    //option-3:getElementsByclassName
+
+    const places = document.getElementsByClassName('important-places');
+  for(const place of places){
+
+    // console.log(place.innerText)
+  }
+
+  //option-4:quaryselector
+
+//option-5:quarySelectorAll
+
+const somoLi = document.querySelectorAll('.fruits-container li');
+
+// console.log(somoLi);
+
+for(const li of somoLi){
+
+    // console.log(li.innerText);
+}
+
+
+    </script>
+    
+</body>
+</html>
