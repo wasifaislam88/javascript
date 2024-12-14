@@ -1,0 +1,17 @@
+// 3 steps:
+
+step 1:
+write this code in main js working file:
+var prompt = require('prompt-sync')();
+
+step 2:
+write this code in terminal:
+npm init -y
+
+step 3:
+then write this code in terminal again:
+npm i prompt-sync
+
+after 3 steps some json file and node_modules will download on our project
+
+then  user input will work on vs code 

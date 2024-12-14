@@ -11,9 +11,6 @@ function calculateMoney(ticketSale){
         return 'invalid number'
     }
 
-
-
-
     return ticketSale *120 - (500 + 8 * 50)
 
 }

@@ -1,0 +1,17 @@
+forEach(): when you want to perform actions but don't need a returned value
+----------   (e.g., logging or modifying external variables).
+
+map()
+-----
+ when you want to transform the array and return a new modified array.
+
+
+ map() return kore || forEach() return kore na
+ map() value na pele empty array [] return kore || forEach() value na pele undefine return kore
+
+
+
+ *****************************************************************
+
+ filter: condition dewar por condition fulfill korle shei value gulo return kore
+ find:   condition dewar por condition fulfill korle only first value ta return kore

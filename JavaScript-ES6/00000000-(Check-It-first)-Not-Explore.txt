@@ -1,0 +1,9 @@
+class
+inheritance
+this
+
+ei 3 ta explore kora hoyni....
+in future must explore korte hobe jodi ei 3 ta use korte chai
+
+Module 31
+PH B10 ei part er github link https://github.com/ProgrammingHero1/explore-more-es6/tree/main
