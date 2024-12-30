@@ -52,7 +52,6 @@
 document.getElementById('button-login')
 .addEventListener('click',function(event){
 event.preventDefault();
-
 //get phone number and pin
 
 const phoneNumber = document.getElementById('phone-number').value;
@@ -73,4 +72,11 @@ else{
 }
 
 });
+
+
+
+
+
+
+
 
