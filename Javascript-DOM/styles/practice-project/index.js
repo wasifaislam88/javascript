@@ -152,5 +152,3 @@ historyTab.addEventListener("click",function(){
             return;
         }
     });
-
-
