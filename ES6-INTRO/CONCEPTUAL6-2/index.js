@@ -91,17 +91,3 @@ loadAllPhones(false,"iphone");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-loadAllPosts(false, "iphone")
